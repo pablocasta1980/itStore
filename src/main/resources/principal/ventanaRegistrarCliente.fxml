@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="428.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.ControladorVentanas.RegistrarClienteController">
+   <children>
+      <ImageView fitHeight="229.0" fitWidth="178.0" layoutX="254.0" layoutY="85.0" opacity="0.2" pickOnBounds="true" preserveRatio="true" scaleX="4.5" scaleY="2.0">
+         <image>
+            <Image url="@../images/itStoreFondo.PNG" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_nombre" layoutX="135.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="Nombre" />
+      <Label layoutX="64.0" layoutY="162.0" prefHeight="26.0" prefWidth="27.0" text="Nit:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txt_password" layoutX="485.0" layoutY="162.0" prefHeight="26.0" prefWidth="230.0" promptText="Password" />
+      <Label layoutX="158.0" layoutY="14.0" prefHeight="42.0" prefWidth="382.0" text="Registro de Nuevo Cliente" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="241.0" prefHeight="26.0" prefWidth="70.0" text="em@il:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="281.0" prefHeight="26.0" prefWidth="70.0" text="FechaAfi:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="320.0" prefHeight="26.0" prefWidth="70.0" text="Telefono:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="358.0" prefHeight="26.0" prefWidth="70.0" text="Registro:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="201.0" prefHeight="26.0" prefWidth="70.0" text="Direccion:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="123.0" prefHeight="26.0" prefWidth="70.0" text="Nombre:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="508.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <ImageView fx:id="registrarCliente" fitHeight="77.0" fitWidth="93.0" layoutX="516.0" layoutY="269.0" onMouseClicked="#registrarCliente" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/addUser.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_nit" layoutX="135.0" layoutY="162.0" prefHeight="26.0" prefWidth="230.0" promptText="Nit" />
+      <TextField fx:id="txt_fechaAfil" layoutX="135.0" layoutY="281.0" prefHeight="26.0" prefWidth="230.0" promptText="Fecha afiliacion" />
+      <TextField fx:id="txt_direccion" layoutX="135.0" layoutY="201.0" prefHeight="26.0" prefWidth="230.0" promptText="Direccion" />
+      <TextField fx:id="txt_email" layoutX="135.0" layoutY="241.0" prefHeight="26.0" prefWidth="230.0" promptText="email" />
+      <TextField fx:id="txt_telefono" layoutX="135.0" layoutY="320.0" prefHeight="26.0" prefWidth="230.0" promptText="Telefono" />
+      <TextField fx:id="txt_registadorPor" layoutX="135.0" layoutY="358.0" prefHeight="26.0" prefWidth="230.0" promptText="registrado por" />
+      <Label layoutX="409.0" layoutY="123.0" prefHeight="26.0" prefWidth="70.0" text="UserName:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="201.0" prefHeight="26.0" prefWidth="70.0" text="Estado:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmb_estado" layoutX="485.0" layoutY="201.0" prefWidth="150.0" />
+      <Label layoutX="409.0" layoutY="162.0" prefHeight="26.0" prefWidth="70.0" text="Password:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_usuario" layoutX="485.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="username" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="439.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.ControladorVentanas.GestionarClientesController">
+   <children>
+      <ImageView fitHeight="374.0" fitWidth="286.0" layoutX="161.0" layoutY="28.0" opacity="0.2" pickOnBounds="true" preserveRatio="true" scaleX="3.2" scaleY="1.5">
+         <image>
+            <Image url="@../images/itStoreFondo.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="229.0" layoutY="42.0" prefHeight="42.0" prefWidth="300.0" text="Cliente Registrados" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table_clientes" layoutX="3.0" layoutY="134.0" prefHeight="200.0" prefWidth="750.0">
+        <columns>
+          <TableColumn fx:id="col_idCliente" prefWidth="63.20001530647278" text="id_cliente" />
+          <TableColumn fx:id="col_nombre" prefWidth="87.19998168945312" text="nombre" />
+            <TableColumn fx:id="col_nit" prefWidth="75.0" text="nit" />
+            <TableColumn fx:id="col_direccion" prefWidth="75.0" text="direccion" />
+            <TableColumn fx:id="col_email" prefWidth="75.0" text="email" />
+            <TableColumn fx:id="col_fechaAfil" prefWidth="75.0" text="fecha_afil." />
+            <TableColumn fx:id="col_telefono" prefWidth="75.0" text="telefono" />
+            <TableColumn fx:id="col_estado" prefWidth="75.0" text="estado" />
+            <TableColumn fx:id="col_registrado" prefWidth="75.0" text="registrado" />
+            <TableColumn fx:id="col_username" prefWidth="75.0" text="username" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

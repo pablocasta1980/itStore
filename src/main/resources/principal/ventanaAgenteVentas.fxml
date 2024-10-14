@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.ControladorVentanas.AgenteVentasController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="428.0" prefWidth="724.0">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="150.0" layoutX="290.0" layoutY="100.0" opacity="0.14" pickOnBounds="true" preserveRatio="true" scaleX="4.9" scaleY="2.5">
+               <image>
+                  <Image url="@../images/itStoreFondo.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="168.0" layoutY="28.0" prefHeight="42.0" prefWidth="394.0" text="itStore Gestion Comercial" textFill="#221b73">
+               <font>
+                  <Font name="Cambria Bold Italic" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="214.0" prefHeight="26.0" prefWidth="109.0" text="Registrar Cliente" textFill="#221b73">
+               <font>
+                  <Font name="Cambria Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="65.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+            <ImageView fx:id="registrarCliente" fitHeight="77.0" fitWidth="93.0" layoutX="73.0" layoutY="129.0" onMouseClicked="#registrarCliente" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/addUser.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="223.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+            <Label layoutX="533.0" layoutY="214.0" prefHeight="26.0" prefWidth="109.0" text="Emitir Factura" textFill="#221b73">
+               <font>
+                  <Font name="Cambria Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="382.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="541.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+            <ImageView fx:id="emitirFactura" fitHeight="77.0" fitWidth="93.0" layoutX="549.0" layoutY="129.0" onMouseClicked="#imprimirFactura" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/impresora.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="202.0" layoutY="214.0" prefHeight="26.0" prefWidth="134.0" text="Clientes Registrados" textFill="#221b73">
+               <font>
+                  <Font name="Cambria Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="gestionarCliente" fitHeight="77.0" fitWidth="93.0" layoutX="231.0" layoutY="129.0" onMouseClicked="#gestionarCliente" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/actualizarCli.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="gestionarClontrato" fitHeight="77.0" fitWidth="93.0" layoutX="389.0" layoutY="129.0" onMouseClicked="#gestionarContrato" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/editar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="364.0" layoutY="214.0" prefHeight="26.0" prefWidth="126.0" text="Gestionar Contrato" textFill="#221b73">
+               <font>
+                  <Font name="Cambria Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

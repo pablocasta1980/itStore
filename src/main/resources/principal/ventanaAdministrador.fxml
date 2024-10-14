@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="389.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.ControladorVentanas.AdministradorController">
+   <children>
+      <ImageView fitHeight="420.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wallpaperPrincipal.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="90.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="304.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="304.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="507.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="97.0" layoutY="234.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#363384" height="93.0" layoutX="507.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Label layoutX="79.0" layoutY="155.0" text="Registrar Usuario" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="155.0" text="Registrar Cliente" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="327.0" text="Gestionar Contrato" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="327.0" prefHeight="20.0" prefWidth="93.0" text="Emitir Factura" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="486.0" layoutY="155.0" text="Clientes Registrados" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="327.0" text="informacion Cliente" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="8.0" prefHeight="36.0" prefWidth="395.0" text="PANEL ADMINISTRACION ItStore" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="registrarUsuario" fitHeight="77.0" fitWidth="93.0" layoutX="98.0" layoutY="70.0" onMouseClicked="#registrarUsuario_P_A" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="250.8" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="525.0" AnchorPane.topAnchor="70.0">
+         <image>
+            <Image url="@../images/addUser.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="77.0" layoutX="313.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="77.0" layoutX="515.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/actualizarCli.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="77.0" layoutX="105.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/editar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="77.0" layoutX="313.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/impresora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="77.0" layoutX="515.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/informationuser.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

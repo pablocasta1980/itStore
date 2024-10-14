@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="501.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.ControladorVentanas.ContratoController">
+   <children>
+      <ImageView fitHeight="501.0" fitWidth="767.0" layoutX="196.0" opacity="0.2" pickOnBounds="true" preserveRatio="true" scaleX="2.01" scaleY="1.01">
+         <image>
+            <Image url="@../images/itStoreFondo.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="337.0" layoutX="398.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="370.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="337.0" layoutX="35.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="359.0" />
+      <TextField fx:id="txt_nit" layoutX="120.0" layoutY="123.0" prefHeight="26.0" prefWidth="164.0" promptText="digite_nit_cliente" />
+      <Label layoutX="50.0" layoutY="123.0" prefHeight="26.0" prefWidth="70.0" text="nit_cliente:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="37.0" prefHeight="42.0" prefWidth="670.0" text="itStore Gestion Comercial Generar Contrato" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="237.0" prefHeight="26.0" prefWidth="58.0" text="Nombre:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="26.0" layoutX="119.0" layoutY="238.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Label fx:id="lbl_nombre" layoutX="127.0" layoutY="237.0" prefHeight="26.0" prefWidth="150.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="317.0" prefHeight="26.0" prefWidth="58.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="395.0" prefHeight="26.0" prefWidth="58.0" text="FechaAfi:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="297.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <ImageView fx:id="bucar_nit" fitHeight="77.0" fitWidth="93.0" layoutX="305.0" layoutY="152.0" onMouseClicked="#bucarPorNit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lupa.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="26.0" layoutX="119.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="26.0" layoutX="119.0" layoutY="317.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="26.0" layoutX="120.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="26.0" layoutX="120.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Label fx:id="lbl_fechaAfiliacion" layoutX="127.0" layoutY="395.0" prefHeight="26.0" prefWidth="150.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_telefono" layoutX="127.0" layoutY="360.0" prefHeight="26.0" prefWidth="150.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_email" layoutX="125.0" layoutY="317.0" prefHeight="26.0" prefWidth="150.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_direccion" layoutX="125.0" layoutY="276.0" prefHeight="26.0" prefWidth="150.0" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="360.0" prefHeight="26.0" prefWidth="58.0" text="Telefono:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="316.0" prefHeight="26.0" prefWidth="58.0" text="email:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="276.0" prefHeight="26.0" prefWidth="70.0" text="Direccion:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="238.0" prefHeight="26.0" prefWidth="70.0" text="Capacidad:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="423.0" layoutY="110.0" prefHeight="42.0" prefWidth="301.0" text="Condiciones Contractuales" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="276.0" prefHeight="26.0" prefWidth="70.0" text="Fecha Ini:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="317.0" prefHeight="26.0" prefWidth="70.0" text="Fecha Fin:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="359.0" prefHeight="26.0" prefWidth="70.0" text="Bodega:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="395.0" prefHeight="26.0" prefWidth="70.0" text="Valor:" textFill="#221b73">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="93.0" layoutX="665.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <ImageView fx:id="firmarContrato" fitHeight="77.0" fitWidth="93.0" layoutX="673.0" layoutY="152.0" onMouseClicked="#firmarContrato" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/informationuser.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_capacidad" layoutX="501.0" layoutY="238.0" prefHeight="26.0" prefWidth="164.0" promptText="capacidad" />
+      <TextField fx:id="txt_fechaFin" layoutX="501.0" layoutY="317.0" prefHeight="26.0" prefWidth="164.0" promptText="fecha fin" />
+      <TextField fx:id="txt_bodega" layoutX="501.0" layoutY="360.0" prefHeight="26.0" prefWidth="164.0" promptText="bodega" />
+      <TextField fx:id="txt_valor" layoutX="501.0" layoutY="396.0" prefHeight="26.0" prefWidth="164.0" promptText="valor" />
+      <TextField fx:id="txt_fechaInicio" layoutX="501.0" layoutY="276.0" prefHeight="26.0" prefWidth="164.0" promptText="fercha inicio" />
+   </children>
+</AnchorPane>
